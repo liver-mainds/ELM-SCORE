@@ -305,7 +305,7 @@ If you use the ELM Score in your research, please cite:
 ```bibtex
 @article{baveno2025elm,
   title={The ELasto-ML (ELM) Score: Validation of a Pan-Elastography Machine-Learning Model for Non-Invasive Prediction of Clinically Significant Portal Hypertension},
-  author={Giuffr{\`e}, Mauro and Kresevic, Simone and ...},
+  author={Giuffrè, Mauro and Kresevic, Simone and ...},
   journal={...},
   year={...},
   note={A Baveno Cooperation Study, EASL Consortium}
@@ -326,13 +326,6 @@ If you use the ELM Score in your research, please cite:
 Python 3.8 or higher
 
 ### Dependencies
-
-```
-pandas>=1.3.0
-numpy>=1.21.0
-scikit-learn>=1.0.0
-openpyxl>=3.0.0  # For Excel file support
-```
 
 Install all dependencies:
 
@@ -397,10 +390,6 @@ This work is part of the **Baveno Cooperation**, an EASL Consortium initiative. 
 - The Baveno Cooperation steering committee
 - EASL (European Association for the Study of the Liver)
 
-### Funding
-
-This work was supported by [Add funding information if applicable]
-
 ---
 
 ## ❓ FAQ
@@ -415,7 +404,7 @@ This work was supported by [Add funding information if applicable]
 
 ### Q: Which elastography device should I use?
 
-**A**: The model works with all three major platforms (VCTE/FibroScan, 2D-SWE, pSWE). Use whichever device is available at your center. The model's z-score harmonization accounts for inter-device variability.
+**A**: The model works with all three major platforms (VCTE-50Hz, VCTE-100Hz, 2D-SWE, pSWE). Use whichever device is available at your center. The model's z-score harmonization accounts for inter-device variability.
 
 ### Q: Can I use this for decompensated cirrhosis?
 
