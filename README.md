@@ -226,9 +226,9 @@ Based on both impurity-based and mutual information analyses:
 
 ### Training Data
 
-- **Training cohort**: 943 patients from 17 centers
+- **Training cohort**: 943 patients 
 - **Internal validation**: 150 patients
-- **External validation**: 342 patients from 7 independent centers
+- **External validation**: 342 patients 
 - **Elastography modalities**: VCTE (50Hz and 100Hz), 2D-SWE, pSWE
 - **Etiologies**: Viral (HCV/HBV), ALD, MASLD, Autoimmune, Mixed/Other
 
