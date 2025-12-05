@@ -244,14 +244,14 @@ Based on both impurity-based and mutual information analyses:
 | PPV | 0.96 | 0.92-0.98 |
 | Gray Zone | 12.3% | - |
 
-### Comparison with Existing Criteria
+### Comparison with Existing Criteria in the External Validation Cohort
 
-| Criterion | Gray Zone | NPV | PPV |
+| Criterion | Gray Zone | NPV (Rule-Out) | PPV (Rule-In) |
 |-----------|-----------|-----|-----|
 | **ELM Score** | **12.3%** | **0.90** | **0.96** |
 | Baveno VII | 47.9% | 0.96 | 0.90 |
-| Baveno-SSM Dual | 38.6% | 0.97 | 0.92 |
-| Baveno-SSM Single | 19.6% | 0.88 | 0.86 |
+| Baveno-SSM Dual Cut-Off Model | 38.6% | 0.97 | 0.92 |
+| Baveno-SSM Single Cut-Off Model | 19.6% | 0.88 | 0.86 |
 
 ---
 ## ⚠️ Important Disclaimers
