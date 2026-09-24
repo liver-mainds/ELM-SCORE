@@ -101,8 +101,7 @@ The script generates a CSV file with all original columns plus the following:
 
 - **Rule-Out (Low Risk)**: ELM Score ≤ 0.45
   - Low probability of CSPH
-  - NPV: 0.90 (95% CI: 0.84-0.94)
-  - Consider deferring invasive HVPG measurement
+  - NPV: 0.91 (95% CI: 0.84-0.95)
 
 - **Rule-In (High Risk)**: ELM Score ≥ 0.60
   - High probability of CSPH
@@ -239,8 +238,8 @@ Based on both impurity-based and mutual information analyses:
 | AUC | 0.91 | - |
 | Accuracy | 0.82 | - |
 | Sensitivity (Rule-out) | 0.94 | 0.91-0.97 |
-| Specificity (Rule-in) | 0.94 | 0.80-0.98 |
-| NPV | 0.90 | 0.84-0.94 |
+| Specificity (Rule-in) | 0.94 | 0.89-0.98 |
+| NPV | 0.91 | 0.84-0.95 |
 | PPV | 0.96 | 0.92-0.98 |
 | Gray Zone | 12.3% | - |
 
@@ -251,7 +250,7 @@ Based on both impurity-based and mutual information analyses:
 | **ELM Score** | **12.3%** | **0.90** | **0.96** |
 | Baveno VII | 47.9% | 0.96 | 0.90 |
 | Baveno-SSM Dual Cut-Off Model | 38.6% | 0.97 | 0.92 |
-| Baveno-SSM Single Cut-Off Model | 19.6% | 0.88 | 0.86 |
+| Baveno-SSM Single Cut-Off Model | 19.6% | 0.88 | 0.88 |
 
 ---
 ## ⚠️ Important Disclaimers
@@ -271,15 +270,6 @@ Based on both impurity-based and mutual information analyses:
 - The model does not replace clinical judgment or established diagnostic procedures
 - Always consider the full clinical context when interpreting results
 
-## 🏥 Clinical Applications
-
-### Primary Use Case
-
-**Non-invasive selection of patients for non-selective β-blocker (NSBB) therapy**
-
-- Patients with ELM Score ≥0.60 can be considered for NSBB therapy (e.g., carvedilol)
-- Patients with ELM Score ≤0.45 can defer invasive HVPG measurement
-- Patients in gray zone (0.45-0.60) should be evaluated with additional testing
 
 ### Advantages
 
@@ -302,13 +292,48 @@ Based on both impurity-based and mutual information analyses:
 
 If you use the ELM Score in your research, please cite:
 
+Giuffrè M, Kresevic S, Ravaioli F, et al. Validation of a pan-ELastography Machine-learning (ELM) score to predict clinically significant portal hypertension in compensated advanced chronic liver disease. *Journal of Hepatology*. 2026. https://doi.org/10.1016/j.jhep.2026.06.032
+
 ```bibtex
-@article{baveno2025elm,
-  title={The ELasto-ML (ELM) Score: Validation of a Pan-Elastography Machine-Learning Model for Non-Invasive Prediction of Clinically Significant Portal Hypertension},
-  author={Giuffrè, Mauro and Kresevic, Simone and ...},
-  journal={...},
-  year={...},
-  note={A Baveno Cooperation Study, EASL Consortium}
+@article{giuffre2026elm,
+  title = {Validation of a {pan-ELastography Machine-learning (ELM)} score to predict clinically significant portal hypertension in compensated advanced chronic liver disease},
+  author = {Giuffr{\`e}, Mauro and
+            Kresevic, Simone and
+            Ravaioli, Federico and
+            Zykus, Romanas and
+            Rautou, Pierre-Emmanuel and
+            Elkrief, Laure and
+            Colecchia, Luigi and
+            Kukic, Sandro and
+            Barisic-Jaman, Mislav and
+            Grgurevic, Ivica and
+            Stefanescu, Horia and
+            Hirooka, Masashi and
+            Fraquelli, Mirella and
+            Rosselli, Matteo and
+            Chang, Pik Eu Jason and
+            Croc{\`e}, Lory and
+            Ajcevic, Milos and
+            Piscaglia, Fabio and
+            Reiberger, Thomas and
+            Llop, Elba and
+            Mueller, Sebastian and
+            Mendoza, Yuly and
+            Puente, {\'A}ngela and
+            Fortea, Jos{\'e} Ignacio and
+            Kim, Sang Gyun and
+            You, Kisung and
+            Marasco, Giovanni and
+            Azzaroli, Francesco and
+            Berzigotti, Annalisa and
+            Shung, Dennis L. and
+            Colecchia, Antonio and
+            Dajti, Elton},
+  journal = {Journal of Hepatology},
+  year = {2026},
+  doi = {10.1016/j.jhep.2026.06.032},
+  url = {https://doi.org/10.1016/j.jhep.2026.06.032},
+  note = {A study by the Baveno Cooperation: an EASL Consortium}
 }
 ```
 
