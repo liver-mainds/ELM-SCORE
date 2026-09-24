@@ -5,7 +5,7 @@
 
 **Official implementation of the ELM Score for non-invasive prediction of Clinically Significant Portal Hypertension (CSPH)**
 
-> **Paper**: "The ELasto-ML (ELM) Score: Validation of a Pan-Elastography Machine-Learning Model for Non-Invasive Prediction of Clinically Significant Portal Hypertension in Compensated Advanced Chronic Liver Disease"
+> **Paper**: "Validation of a pan-ELastography Machine-learning (ELM) score to predict clinically significant portal hypertension in compensated advanced chronic liver disease"
 
 ---
 
